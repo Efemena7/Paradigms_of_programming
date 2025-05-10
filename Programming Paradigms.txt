@@ -1,0 +1,64 @@
+		What is a Programming Paradigm?
+Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be tackled.
+The question of why are there many different programming paradigms is similar to why are there many programming languages. Certain paradigms are better suited for certain types of problems, so it makes sense to use different paradigms for different kinds of projects.
+
+Programming paradigms are not languages or tools. You can't "build" anything with a paradigm. They're more like a set of ideals and guidelines that many people have agreed on, followed, and expanded upon.
+
+Programming languages aren't always tied to a specific paradigm. There are languages that have been built with a certain paradigm in mind and have features that facilitate that kind of programming more than others (Haskel and functional programming is a good example).
+
+But there are also "multi-paradigm" languages, meaning you can adapt your code to fit a certain paradigm or another (JavaScript and Python are good examples).
+
+At the same time, programming paradigms aren't mutually exclusive, in the sense that you could use practices from different paradigms at the same time with no problem at all.
+
+			Types of Programming Paradigms
+
+	Imperative Programming
+Imperative programming consists of sets of detailed instructions that are given to the computer to execute in a given order. It's called "imperative" because as programmers we dictate exactly what the computer has to do, in a very specific way.
+- Focuses on explicitly describing how a program should operate.
+- Uses statements to change a program's state step by step.
+- Examples: C, Python (procedural approach).
+
+Say you want to bake a cake. Your imperative program to do this might look like this:
+
+1- Pour flour in a bowl
+2- Pour a couple eggs in the same bowl
+3- Pour some milk in the same bowl
+4- Mix the ingredients
+5- Pour the mix in a mold
+6- Cook for 35 minutes
+7- Let chill
+
+	Procedural Programming
+Procedural programming is a derivation of imperative programming, adding to it the feature of functions (also known as "procedures" or "subroutines").
+In procedural programming, the user is encouraged to subdivide the program execution into functions, as a way of improving modularity and organization.
+- A subset of imperative programming that organizes code into procedures or functions.
+- Helps in structuring code and reducing redundancy.
+- Examples: C, Pascal.
+
+	Functional Programming
+Functional programming takes the concept of functions a little bit further. In functional programming, functions are treated as first-class citizens, meaning that they can be assigned to variables, passed as arguments, and returned from other functions.
+Another key concept is the idea of pure functions. A pure function is one that relies only on its inputs to generate its result. And given the same input, it will always produce the same result. Besides, it produces no side effects (any change outside the function's environment).
+
+With these concepts in mind, functional programming encourages programs written mostly with functions (surprise 😲). It also defends the idea that code modularity and the absence of side effects makes it easier to identify and separate responsibilities within the codebase. This therefore improves the code maintainability.
+
+- Treats computation as evaluating mathematical functions without changing state.
+- Emphasizes immutability and avoids side effects.
+- Examples: Haskell, Lisp, Scala.
+
+	Declarative Programming
+Declarative programming is all about hiding away complexity and bringing programming languages closer to human language and thinking. It's the direct opposite of imperative programming in the sense that the programmer doesn't give instructions about how the computer should execute the task, but rather on what result is needed.
+
+- Focuses on describing what the program should accomplish rather than how to do it.
+- Often used in database queries and functional programming.
+- Examples: SQL, HTML, functional languages like Haskell.
+
+	Object-Oriented Programming
+One of the most popular programming paradigms is object-oriented programming (OOP).
+The core concept of OOP is to separate concerns into entities which are coded as objects. Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity.
+
+OOP makes heavy usage of classes (which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets). Objects that are created from a class are called instances.
+
+
+- Organizes code into objects, encapsulating data and behavior.
+- Uses principles like inheritance, encapsulation, and polymorphism.
+- Examples: Java, Python, C++.
